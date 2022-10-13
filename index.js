@@ -1,7 +1,7 @@
 
 document.getElementById("submit").click = () => {
     var body = document.getElementById("s").value;
-    var link = `https://xfeedback.herokuapp.com/send?topic=NONE&user=[USERNAME]&message=${body}&api=MfDTklWx9FEJ1ghVd7n57egFZ9FJT5thbqsD9Dp8Y7kF1yjuZe8-glVeh2zRN15D`
+    var link = `https://xfeedback.herokuapp.com/send?topic=NONE&user=[USERNAME]&message=${body}&api=B1o2q24Sq5y71HvCiLyN8w6cRLOw1EixamwPdiAVLBj-3JOwko4iaU7iZBXa9JDI`
     console.log(link);
     fetch(link).then(()=>{
         console.log("done")
